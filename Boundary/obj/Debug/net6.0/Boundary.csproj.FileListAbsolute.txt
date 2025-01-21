@@ -1,0 +1,14 @@
+C:\Users\admin\source\repos\Boundary\Boundary\bin\Debug\net6.0\Boundary.exe
+C:\Users\admin\source\repos\Boundary\Boundary\bin\Debug\net6.0\Boundary.deps.json
+C:\Users\admin\source\repos\Boundary\Boundary\bin\Debug\net6.0\Boundary.runtimeconfig.json
+C:\Users\admin\source\repos\Boundary\Boundary\bin\Debug\net6.0\Boundary.dll
+C:\Users\admin\source\repos\Boundary\Boundary\bin\Debug\net6.0\Boundary.pdb
+C:\Users\admin\source\repos\Boundary\Boundary\obj\Debug\net6.0\Boundary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\Boundary\Boundary\obj\Debug\net6.0\Boundary.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\Boundary\Boundary\obj\Debug\net6.0\Boundary.AssemblyInfo.cs
+C:\Users\admin\source\repos\Boundary\Boundary\obj\Debug\net6.0\Boundary.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Boundary\Boundary\obj\Debug\net6.0\Boundary.dll
+C:\Users\admin\source\repos\Boundary\Boundary\obj\Debug\net6.0\refint\Boundary.dll
+C:\Users\admin\source\repos\Boundary\Boundary\obj\Debug\net6.0\Boundary.pdb
+C:\Users\admin\source\repos\Boundary\Boundary\obj\Debug\net6.0\Boundary.genruntimeconfig.cache
+C:\Users\admin\source\repos\Boundary\Boundary\obj\Debug\net6.0\ref\Boundary.dll
