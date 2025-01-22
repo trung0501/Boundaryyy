@@ -6,6 +6,7 @@ class Node
     public int Data;
     public Node Left, Right;
 
+    // Constructor 
     public Node(int data)
     {
         Data = data;
@@ -44,14 +45,14 @@ class BinaryTree
         PrintLeaves(node.Right, result);
     }
 
-    // In biên phải, ngoại trừ nút lá (theo thứ tự từ dưới lên)
+    // Print right border, except leaf nodes (in order from bottom to top)
     private void PrintRightBoundary(Node node, List<int> result)
     {
         if (node == null) return;
         if (node.Right != null)
         {
             PrintRightBoundary(node.Right, result);
-            result.Add(node.Data); // Lưu nút hiện tại sau khi đệ quy
+            result.Add(node.Data); // Save the current node after recursion 
         }
         else if (node.Left != null)
         {
