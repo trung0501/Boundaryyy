@@ -12,19 +12,17 @@ class Node
         Left = Right = null;
     }
 }
-
 class BinaryTree
 {
     Node root;
 
-    // In biên trái, ngoại trừ nút lá
+    // Prints the left border, except for leaf buttons
     private void PrintLeftBoundary(Node node, List<int> result)
     {
         if (node == null) return;
-
         if (node.Left != null)
         {
-            result.Add(node.Data); // Lưu nút hiện tại
+            result.Add(node.Data);  // Save the current node
             PrintLeftBoundary(node.Left, result);
         }
         else if (node.Right != null)
@@ -34,17 +32,15 @@ class BinaryTree
         }
     }
 
-    // In các nút lá
+    // Print leaf buttons
     private void PrintLeaves(Node node, List<int> result)
     {
         if (node == null) return;
-
         PrintLeaves(node.Left, result);
 
-        // Kiểm tra nếu là lá
+        // Check if it is leaves
         if (node.Left == null && node.Right == null)
             result.Add(node.Data);
-
         PrintLeaves(node.Right, result);
     }
 
@@ -52,7 +48,6 @@ class BinaryTree
     private void PrintRightBoundary(Node node, List<int> result)
     {
         if (node == null) return;
-
         if (node.Right != null)
         {
             PrintRightBoundary(node.Right, result);
