@@ -61,13 +61,13 @@ class BinaryTree
         }
     }
 
-    // Xác định đường biên
+    // Determine the boundary
     public List<int> BoundaryTraversal()
     {
         List<int> result = new List<int>();
         if (root == null) return result;
 
-        result.Add(root.Data); // Gốc cây luôn thuộc đường biên
+        result.Add(root.Data); // The tree stump is always on the border
 
         // In biên trái
         PrintLeftBoundary(root.Left, result);
