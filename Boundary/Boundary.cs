@@ -69,14 +69,14 @@ class BinaryTree
 
         result.Add(root.Data); // The tree stump is always on the border
 
-        // In biên trái
+        // Print left border
         PrintLeftBoundary(root.Left, result);
 
-        // In các nút lá
+        // Print leaf buttons
         PrintLeaves(root.Left, result);
         PrintLeaves(root.Right, result);
 
-        // In biên phải
+        // Print right border 
         PrintRightBoundary(root.Right, result);
 
         return result;
