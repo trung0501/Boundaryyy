@@ -82,12 +82,12 @@ class BinaryTree
         return result;
     }
 
-    // Hàm tiện ích để thêm dữ liệu vào cây (demo)
+    // Utility function to add data to the tree (demo)
     public void AddRoot(int data) => root = new Node(data);
     public Node AddLeft(Node parent, int data) => parent.Left = new Node(data);
     public Node AddRight(Node parent, int data) => parent.Right = new Node(data);
 
-    // Hàm main
+    // Main
     public static void Main(string[] args)
     {
         BinaryTree tree = new BinaryTree();
