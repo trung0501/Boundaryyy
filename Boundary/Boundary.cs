@@ -101,7 +101,7 @@ class BinaryTree
 
         */
 
-        // Tạo cây nhị phân mẫu
+        // Create binary tree
         tree.AddRoot(1);
         var left = tree.AddLeft(tree.root, 2);
         var right = tree.AddRight(tree.root, 3);
@@ -112,6 +112,7 @@ class BinaryTree
 
         List<int> boundary = tree.BoundaryTraversal();
         Console.WriteLine("Boundary Traversal: " + string.Join(", ", boundary));
+        Console.WriteLine("Final project of 2024");
     }
 }
 
